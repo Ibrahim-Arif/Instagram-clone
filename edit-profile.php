@@ -127,7 +127,7 @@
                         <label class="edit-profile__label"></label>
                         <input type="submit" name = "submit" value="Submit">
                     </div>
-                </form>
+                </form> 
             </section>
         </main>
         <footer class="footer">

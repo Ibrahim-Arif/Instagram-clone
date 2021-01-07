@@ -8,7 +8,7 @@
         $password       = $_POST['password'];
         $email          = $_POST['email'];
         $bio            = $_POST['bio'];
-        
+
         include_once 'connect.php';
 
         $result = mysqli_query ($conn, "UPDATE users

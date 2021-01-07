@@ -23,9 +23,6 @@
                 />
             </a>
             <div class="navigation__icons">
-                <a href="explore.html" class="navigation__link">
-                    <i class="fa fa-compass"></i>
-                </a>
                 <a href="#" class="navigation__link">
                     <i class="fa fa-heart-o"></i>
                 </a>
@@ -45,8 +42,7 @@
                                                     WHERE username = '$curr_us' 
                                                             AND 
                                                           following = '$us'
-                                                )                                       
-                                                AS is_follower,
+                                                )                                      AS is_follower,
                                                 profile_name,
                                                 profile_picture,
                                                 bio, 												

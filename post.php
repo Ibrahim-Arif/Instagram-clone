@@ -50,17 +50,6 @@
                 class="navigation__logo"
             />
         </a>
-        <div class="navigation__icons">
-            <a href="#" class="navigation__link">
-                <i class="fa fa-compass"></i>
-            </a>
-            <a href="#" class="navigation__link">
-                <i class="fa fa-heart-o"></i>
-            </a>
-            <a href="#" class="navigation__link">
-                <i class="fa fa-user-o"></i>
-            </a>
-        </div>
     </nav>
 
     <div class="container">

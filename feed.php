@@ -31,9 +31,6 @@
                 </div>
             </form>
             <div class="navigation__icons">
-                <a href="explore.php" class="navigation__link">
-                    <i class="fa fa-compass"></i>
-                </a>
                 <a href="post.php?username=<?php echo $us?>" class="navigation__link">
                     <img
                         class=" "
@@ -174,7 +171,7 @@
                     </a>
 
                     </ul>
-                    <span class="photo__time-ago"><?php echo $created_at ?> days</span>
+                    <span class="photo__time-ago"><?php echo $created_at ?> days ago</span>
                         <div class="photo__add-comment-container">
                         <form action="comment.php?post_id=<?php echo $post_id ?>&username=<?php echo $us ?>&return_to=feed" method="POST">
                             <textarea name = "comment" placeholder="Add a comment..." class="photo__add-comment"></textarea>
@@ -207,7 +204,7 @@
         <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+  crossorigin=""></script>
         <script src="js/app.js"></script>
     </body>
 </html>

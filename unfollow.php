@@ -19,20 +19,12 @@
     if($remove_relation){
 
         $decrement_follower  = mysqli_query ($conn, " UPDATE users 
-                                                      SET followers  =  CASE
-                                                                            WHEN followers > 0 
-                                                                            THEN followers - 1
-                                                                            ELSE 0
-                                                                        END
+                                                      SET followers  =  followers - 1
                                                       WHERE username = '$unfollowing'"
                                             );
     
         $decrement_following = mysqli_query ($conn, " UPDATE users 
-                                                      SET followings =  CASE
-                                                                            WHEN followings > 0 
-                                                                            THEN followings - 1
-                                                                            ELSE 0
-                                                                        END
+                                                      SET followings =  followings - 1
                                                       WHERE username = '$follower'"
                                             );
     }                     

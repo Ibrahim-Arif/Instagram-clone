@@ -54,9 +54,6 @@
                 />
             </a>
             <div class="navigation__icons">
-                <a href="explore.html" class="navigation__link">
-                    <i class="fa fa-compass"></i>
-                </a>
                 <a href="#" class="navigation__link">
                     <i class="fa fa-heart-o"></i>
                 </a>
